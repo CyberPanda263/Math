@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylsheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer type="module" src="./js/script.js"></script>
+    <title>Завдання з математики множуння/ділення</title>
+</head>
+<body>
+    <header>
+    </header>
+    <section class="options-for-examples">
+        <div class="conteiner">
+            <form class="options-form">
+                <fieldset class="task-type">
+                    <legend>Оберіть тип завданнь</legend>
+
+                    <input class="task-type=item" type="radio" id="Multiplication" name="task-type" value="Multiplication" />
+                    <label for="Multiplication">Множення</label>
+
+                    <input class="task-type=item" type="radio" id="Division" name="task-type" value="Division" />
+                    <label for="Division">Ділення</label>
+
+                    <input class="task-type=item" type="radio" id="Multiplication-and-Division" name="task-type" value="Multiplication-and-Division"/>
+                    <label for="Multiplication-and-Division">Множення та ділення</label>
+                </fieldset>
+                <fieldset class="options">
+                    <legend>Оберіть кількість прикладів та складність</legend>
+                    <input class="options-item" type="number" id="number" name="number-of-examples" />
+                    <label for="number">кількість прикладів</label>
+
+                    <input class="options-checkbox" type="checkbox" id="point" name="point" />
+                    <label for="point">Плаваюча кома</label>
+
+                    <select class="options-numbers" name="select-numbers">
+                        <option value="99" selected>Десяткі</option>
+                        <option value="999">Сотні</option>
+                        <option value="9999">Тисячі</option>
+                      </select>
+                </fieldset>
+                <input class="options-submit" type="submit" name="submit" value="Створити завдання">
+            </form>
+        </div>
+    </section>
+    <section class="examplse">
+        <div class="conteiner">
+            <div class="examplse-box"></div>
+        </div>
+    </section>
+</body>
+</html>
