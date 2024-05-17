@@ -6,7 +6,7 @@
     <link rel="stylsheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/style.css">
     <script defer type="module" src="./js/script.js"></script>
-    <title>Завдання з математики множуння/ділення</title>
+    <title>Завдання з математики множeння/ділення</title>
 </head>
 <body>
     <header>
@@ -34,6 +34,9 @@
                     <input class="options-checkbox" type="checkbox" id="point" name="point" />
                     <label for="point">Плаваюча кома</label>
 
+                    <input class="options-checkbox" type="checkbox" id="point" name="unknown" />
+                    <label for="point">Одне невідоме</label>
+
                     <select class="options-numbers" name="select-numbers">
                         <option value="99" selected>Десяткі</option>
                         <option value="999">Сотні</option>
@@ -46,8 +49,14 @@
     </section>
     <section class="examplse">
         <div class="conteiner">
-            <div class="examplse-box"></div>
+            <h2 class="examplse-title">Завдання</h2>
+            <ul class="examples-list"></ul>
+            <h2 class="examplse-title">Відповіді</h2>
+            <ul class="answers-list"></ul>
         </div>
+    </section>
+    <section class="print">
+        <button type="button" class="print">роздрукувати</button>
     </section>
 </body>
 </html>
